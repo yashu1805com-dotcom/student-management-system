@@ -64,7 +64,7 @@ while True:
     try:
         choice=int(input("Enter my choice: "))
     except ValueError:
-        print("Enter valid choice")
+        print("Enter  choice")
         continue
     if choice==1:
         system.add_student()
